@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
-$primary: #198754;
+$primary: #003a70;
+$card-color: #004280;
 $enable-shadows: true;
 $color-mode-type: media-query;
 
@@ -8,9 +9,9 @@ $color-mode-type: media-query;
 @import 'bootstrap/scss/bootstrap';
 
 :root {
-  --card-color: #{$green-500};
-  --navbar-bg-color: #{$green-400};
-  --navbar-border-bottom-color: #{$green-800};
+  --card-color: #004280;
+  --navbar-bg-color: #003a70;
+  --navbar-border-bottom-color: #004280;
   --navbar-text-color: white;
   --navbar-muted-color: $gray-400;
 }
